@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="90vp"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:sportType"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:text="运动类型"
+            ohos:text_size="20fp"
+            ohos:margin="5vp">
+        </Text>
+
+        <Text
+            ohos:id="$+id:time"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:text="时间地点"
+            ohos:text_size="20fp"
+            ohos:margin="5vp">
+        </Text>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:level"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:text="水平"
+            ohos:text_size="20fp"
+            ohos:margin="5vp">
+        </Text>
+
+        <Text
+            ohos:id="$+id:numNeeded"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:text="人数"
+            ohos:text_size="20fp"
+            ohos:margin="5vp">
+        </Text>
+
+        <Button
+            ohos:id="$+id:add"
+            ohos:height="47vp"
+            ohos:width="match_content"
+            ohos:text="组队"
+            ohos:margin="5vp"
+            ohos:text_size="20fp"
+            ohos:text_color="#FEFEFE"
+            ohos:text_alignment="center"
+            ohos:background_element="#21a8fd"
+            ohos:layout_alignment="horizontal_center">
+        </Button>
+
+        <Button
+            ohos:id="$+id:del"
+            ohos:height="47vp"
+            ohos:width="match_content"
+            ohos:text="取消"
+            ohos:margin="5vp"
+            ohos:text_size="20fp"
+            ohos:text_color="#FEFEFE"
+            ohos:text_alignment="center"
+            ohos:background_element="#21a8fd"
+            ohos:layout_alignment="horizontal_center">
+        </Button>
+
+    </DirectionalLayout>
+
+    <Component
+        ohos:top_margin="5vp"
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#CCCCCC"/>
+
+</DirectionalLayout>

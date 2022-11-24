@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:top_margin="50vp"
+        ohos:height="45vp"
+        ohos:width="200vp"
+        ohos:text_size="30fp"
+        ohos:text="     用户名："
+        ohos:text_color="#21a8fd">
+    </Text>
+
+    <Text
+        ohos:id="$+id:theUserName"
+        ohos:top_margin="20vp"
+        ohos:height="45vp"
+        ohos:width="match_parent"
+        ohos:text_size="30fp"
+        ohos:text="用户名"
+        ohos:text_alignment="horizontal_center"
+        ohos:text_color="#000000">
+    </Text>
+
+    <Button
+        ohos:id="$+id:exit"
+        ohos:height="47vp"
+        ohos:width="319vp"
+        ohos:text="退出登录"
+        ohos:text_size="24vp"
+        ohos:text_color="#FEFEFE"
+        ohos:text_alignment="center"
+        ohos:background_element="#21a8fd"
+        ohos:top_margin="20vp"
+        ohos:layout_alignment="horizontal_center">
+    </Button>
+
+</DirectionalLayout>

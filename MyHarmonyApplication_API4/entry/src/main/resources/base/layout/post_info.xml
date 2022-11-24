@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="#F2F2F2">
+
+    <Text
+        ohos:height="45vp"
+        ohos:width="200vp"
+        ohos:text_size="20fp"
+        ohos:text="运动类型："
+        ohos:text_color="#000000">
+    </Text>
+
+    <TextField
+        ohos:id="$+id:sportType"
+        ohos:height="45vp"
+        ohos:width="319vp"
+        ohos:top_margin="5vp"
+        ohos:padding="3vp"
+        ohos:background_element="#FFFFFF"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="请输入运动类型"
+        ohos:text_size="17fp"
+        ohos:hint_color="#999999"
+        ohos:text_alignment="center"
+        />
+
+    <Text
+        ohos:height="45vp"
+        ohos:width="200vp"
+        ohos:text_size="20fp"
+        ohos:text="运动时间："
+        ohos:text_color="#000000">
+    </Text>
+
+    <TextField
+        ohos:id="$+id:time"
+        ohos:height="45vp"
+        ohos:width="319vp"
+        ohos:top_margin="5vp"
+        ohos:padding="3vp"
+        ohos:background_element="#FFFFFF"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="请输入时间"
+        ohos:text_size="17fp"
+        ohos:hint_color="#999999"
+        ohos:text_alignment="center"
+        />
+
+    <Text
+        ohos:height="45vp"
+        ohos:width="200vp"
+        ohos:text_size="20fp"
+        ohos:text="运动地点："
+        ohos:text_color="#000000">
+    </Text>
+
+    <TextField
+        ohos:id="$+id:location"
+        ohos:height="45vp"
+        ohos:width="319vp"
+        ohos:top_margin="5vp"
+        ohos:padding="3vp"
+        ohos:background_element="#FFFFFF"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="请输入运动地点"
+        ohos:text_size="17fp"
+        ohos:hint_color="#999999"
+        ohos:text_alignment="center"
+        />
+
+    <Text
+        ohos:height="45vp"
+        ohos:width="200vp"
+        ohos:text_size="20fp"
+        ohos:text="运动水平："
+        ohos:text_color="#000000">
+    </Text>
+
+    <TextField
+        ohos:id="$+id:level"
+        ohos:height="45vp"
+        ohos:width="319vp"
+        ohos:top_margin="5vp"
+        ohos:padding="3vp"
+        ohos:background_element="#FFFFFF"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="请输入运动水平"
+        ohos:text_size="17fp"
+        ohos:hint_color="#999999"
+        ohos:text_alignment="center"
+        />
+
+    <Text
+        ohos:height="45vp"
+        ohos:width="200vp"
+        ohos:text_size="20fp"
+        ohos:text="需求人数："
+        ohos:text_color="#000000">
+    </Text>
+
+    <TextField
+        ohos:id="$+id:numNeeded"
+        ohos:height="45vp"
+        ohos:width="319vp"
+        ohos:top_margin="5vp"
+        ohos:padding="3vp"
+        ohos:background_element="#FFFFFF"
+        ohos:layout_alignment="horizontal_center"
+        ohos:hint="请输入需求人数"
+        ohos:text_size="17fp"
+        ohos:hint_color="#999999"
+        ohos:text_alignment="center"
+        />
+
+    <Button
+        ohos:id="$+id:postInfo"
+        ohos:height="47vp"
+        ohos:width="319vp"
+        ohos:text="发布信息"
+        ohos:text_size="24vp"
+        ohos:text_color="#FEFEFE"
+        ohos:text_alignment="center"
+        ohos:background_element="#21a8fd"
+        ohos:top_margin="7vp"
+        ohos:layout_alignment="horizontal_center">
+    </Button>
+
+</DirectionalLayout>
